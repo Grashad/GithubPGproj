@@ -1,4 +1,13 @@
 .headWrap {
   display: flex;
-  background: white;
+  background: transparent;
+  margin: 0;
+  justify-content: center;
+}
+
+.listWrap {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-end;
+  padding-right: 1rem;
 }/*# sourceMappingURL=header.css.map */

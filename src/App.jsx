@@ -7,7 +7,7 @@ function Application() {
  return (
 <BrowserRouter>
 <Routes>
-     <Route path='/homepage' element={<MainPage />}></Route>
+     <Route path='/homepage' element={<MainPage className="header" />}></Route>
      <Route  path='*' element={<Navigate to='/homepage'/>}> <Route/>
 </Route>
 </Routes>
